@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Pattern Guard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="popup">
+    <h2>Dark Pattern Guard</h2>
+    <button id="scanBtn">Scan Page</button>
+
+    <div id="result" class="result">
+      <p><strong>Status:</strong> <span id="status">Not scanned</span></p>
+      <p><strong>Risk:</strong> <span id="risk">-</span></p>
+      <p><strong>Category:</strong> <span id="category">-</span></p>
+      <p><strong>Confidence:</strong> <span id="confidence">-</span></p>
+      <p><strong>Explanation:</strong> <span id="explanation">-</span></p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
